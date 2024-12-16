@@ -4,7 +4,7 @@ import com.base.BasePage;
 import org.openqa.selenium.By;
 
 public class LoginPage extends BasePage {
-    private By usernameField = By.id("user-name");
+    private By usernameField = By.id("username");
     private By passwordField = By.id("password");
     private By loginButton = By.id("login-button");
     private By errorMessage = By.cssSelector(".login-box h3");

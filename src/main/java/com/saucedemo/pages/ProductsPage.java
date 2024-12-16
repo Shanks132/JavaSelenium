@@ -9,3 +9,4 @@ public class ProductsPage extends BasePage {
         return find(productsHeader).isDisplayed();
     }
 }
+    
